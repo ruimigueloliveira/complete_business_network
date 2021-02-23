@@ -1,0 +1,12 @@
+Jun 26 14:03:01.063 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Jun 26 14:03:01.064 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 46261.
+Jun 26 14:03:01.074 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 26 14:03:01.074 HYPERVISOR: exec_cmd: hypervisor working_dir /home/miguel/Desktop/ar/projeto/gns3/project-files/dynamips 
+Jun 26 14:03:01.074 GENERAL: working_dir=/home/miguel/Desktop/ar/projeto/gns3/project-files/dynamips
+Jun 26 14:03:01.074 HYPERVISOR: exec_cmd: ethsw create SWL2_DATACENTER 
+Jun 26 14:03:01.709 HYPERVISOR: exec_cmd: nio create_udp udp-b33fcd28-2192-49c4-b2b7-ccce13812fb0 10001 127.0.0.1 10000 
+Jun 26 14:03:01.709 HYPERVISOR: exec_cmd: ethsw add_nio SWL2_DATACENTER udp-b33fcd28-2192-49c4-b2b7-ccce13812fb0 
+Jun 26 14:03:01.726 HYPERVISOR: exec_cmd: ethsw set_access_port SWL2_DATACENTER udp-b33fcd28-2192-49c4-b2b7-ccce13812fb0 1 
+Jun 26 14:03:06.939 HYPERVISOR: exec_cmd: nio create_udp udp-ca4b05ee-2352-41be-8fe7-273a93857b62 10127 127.0.0.1 10126 
+Jun 26 14:03:06.940 HYPERVISOR: exec_cmd: ethsw add_nio SWL2_DATACENTER udp-ca4b05ee-2352-41be-8fe7-273a93857b62 
+Jun 26 14:03:06.953 HYPERVISOR: exec_cmd: ethsw set_access_port SWL2_DATACENTER udp-ca4b05ee-2352-41be-8fe7-273a93857b62 1 

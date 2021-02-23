@@ -1,0 +1,37 @@
+Jun 22 11:27:20.656 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Jun 22 11:27:20.656 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 35575.
+Jun 22 11:27:20.666 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 22 11:27:20.667 HYPERVISOR: exec_cmd: hypervisor working_dir /home/miguel/Desktop/ar/projeto/gns3/project-files/dynamips 
+Jun 22 11:27:20.667 GENERAL: working_dir=/home/miguel/Desktop/ar/projeto/gns3/project-files/dynamips
+Jun 22 11:27:20.667 HYPERVISOR: exec_cmd: hypervisor working_dir /home/miguel/Desktop/ar/projeto/gns3/project-files/dynamips/d65b30ec-24d0-44c7-a6cb-25a04b60d515 
+Jun 22 11:27:20.667 GENERAL: working_dir=/home/miguel/Desktop/ar/projeto/gns3/project-files/dynamips/d65b30ec-24d0-44c7-a6cb-25a04b60d515
+Jun 22 11:27:20.667 HYPERVISOR: exec_cmd: vm create R22 6 c7200 
+Jun 22 11:27:20.667 VM: VM R22 created.
+Jun 22 11:27:20.667 HYPERVISOR: exec_cmd: vm set_con_tcp_port R22 5005 
+Jun 22 11:27:20.667 HYPERVISOR: exec_cmd: c7200 get_mac_addr R22 
+Jun 22 11:27:20.668 HYPERVISOR: exec_cmd: vm get_status R22 
+Jun 22 11:27:20.668 HYPERVISOR: exec_cmd: vm slot_add_binding R22 0 0 C7200-IO-FE 
+Jun 22 11:27:20.668 HYPERVISOR: exec_cmd: vm set_disk0 R22 0 
+Jun 22 11:27:20.668 HYPERVISOR: exec_cmd: vm get_status R22 
+Jun 22 11:27:20.668 HYPERVISOR: exec_cmd: vm set_idle_pc R22 0x60608040 
+Jun 22 11:27:20.669 HYPERVISOR: exec_cmd: vm set_ios R22 /home/miguel/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Jun 22 11:27:20.669 HYPERVISOR: exec_cmd: c7200 set_mac_addr R22 ca06.2044.0000 
+Jun 22 11:27:20.669 HYPERVISOR: exec_cmd: vm set_nvram R22 512 
+Jun 22 11:27:20.669 HYPERVISOR: exec_cmd: vm set_ram R22 512 
+Jun 22 11:27:20.669 HYPERVISOR: exec_cmd: vm get_status R22 
+Jun 22 11:27:20.669 HYPERVISOR: exec_cmd: vm slot_remove_binding R22 0 0 
+Jun 22 11:27:20.670 HYPERVISOR: exec_cmd: vm get_status R22 
+Jun 22 11:27:20.670 HYPERVISOR: exec_cmd: vm slot_add_binding R22 0 0 C7200-IO-2FE 
+Jun 22 11:27:20.670 HYPERVISOR: exec_cmd: vm get_status R22 
+Jun 22 11:27:20.670 HYPERVISOR: exec_cmd: vm slot_add_binding R22 1 0 PA-2FE-TX 
+Jun 22 11:27:20.670 HYPERVISOR: exec_cmd: vm get_status R22 
+Jun 22 11:27:20.670 HYPERVISOR: exec_cmd: vm slot_add_binding R22 2 0 PA-2FE-TX 
+Jun 22 11:27:20.671 HYPERVISOR: exec_cmd: vm get_status R22 
+Jun 22 11:27:20.671 HYPERVISOR: exec_cmd: vm slot_add_binding R22 3 0 PA-2FE-TX 
+Jun 22 11:27:22.159 HYPERVISOR: exec_cmd: vm get_status R22 
+Jun 22 11:27:22.161 HYPERVISOR: exec_cmd: vm extract_config R22 
+Jun 22 11:27:22.164 HYPERVISOR: exec_cmd: vm delete R22 
+Jun 22 11:27:22.164 VM: VM R22 destroyed.
+Jun 22 11:27:22.168 HYPERVISOR: exec_cmd: hypervisor stop 
+Jun 22 11:27:22.668 HYPERVISOR: Stopped.
+Jun 22 11:27:22.668 GENERAL: reset done.

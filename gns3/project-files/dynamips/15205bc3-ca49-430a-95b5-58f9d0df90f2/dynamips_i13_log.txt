@@ -1,0 +1,27 @@
+Jun 24 22:05:14.797 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Jun 24 22:05:14.797 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 38523.
+Jun 24 22:05:14.807 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 24 22:05:14.808 HYPERVISOR: exec_cmd: hypervisor working_dir /home/miguel/Desktop/ar/projeto/gns3/project-files/dynamips 
+Jun 24 22:05:14.808 GENERAL: working_dir=/home/miguel/Desktop/ar/projeto/gns3/project-files/dynamips
+Jun 24 22:05:14.808 HYPERVISOR: exec_cmd: ethsw create SWL2_INTERNET 
+Jun 24 22:05:15.567 HYPERVISOR: exec_cmd: nio create_udp udp-e1ef19c1-9721-4d48-ab31-23e7d9323e09 10001 127.0.0.1 10000 
+Jun 24 22:05:15.567 HYPERVISOR: exec_cmd: ethsw add_nio SWL2_INTERNET udp-e1ef19c1-9721-4d48-ab31-23e7d9323e09 
+Jun 24 22:05:15.585 HYPERVISOR: exec_cmd: ethsw set_access_port SWL2_INTERNET udp-e1ef19c1-9721-4d48-ab31-23e7d9323e09 1 
+Jun 24 22:05:15.960 HYPERVISOR: exec_cmd: nio create_udp udp-194308e6-83de-4925-9854-9fd56a37e77a 10005 127.0.0.1 10004 
+Jun 24 22:05:15.960 HYPERVISOR: exec_cmd: ethsw add_nio SWL2_INTERNET udp-194308e6-83de-4925-9854-9fd56a37e77a 
+Jun 24 22:05:15.971 HYPERVISOR: exec_cmd: ethsw set_access_port SWL2_INTERNET udp-194308e6-83de-4925-9854-9fd56a37e77a 1 
+Jun 24 22:05:16.310 HYPERVISOR: exec_cmd: nio create_udp udp-2d059ff3-77f0-4751-a1ce-f9c5475db686 10009 127.0.0.1 10008 
+Jun 24 22:05:16.310 HYPERVISOR: exec_cmd: ethsw add_nio SWL2_INTERNET udp-2d059ff3-77f0-4751-a1ce-f9c5475db686 
+Jun 24 22:05:16.312 HYPERVISOR: exec_cmd: ethsw set_access_port SWL2_INTERNET udp-2d059ff3-77f0-4751-a1ce-f9c5475db686 1 
+Jun 24 22:05:16.675 HYPERVISOR: exec_cmd: nio create_udp udp-25d47969-d4b9-4108-9ac9-d71431215aad 10013 127.0.0.1 10012 
+Jun 24 22:05:16.675 HYPERVISOR: exec_cmd: ethsw add_nio SWL2_INTERNET udp-25d47969-d4b9-4108-9ac9-d71431215aad 
+Jun 24 22:05:16.694 HYPERVISOR: exec_cmd: ethsw set_access_port SWL2_INTERNET udp-25d47969-d4b9-4108-9ac9-d71431215aad 1 
+Jun 24 22:05:17.049 HYPERVISOR: exec_cmd: nio create_udp udp-4fed1f73-fe20-42e9-9c59-1582c3e8c674 10017 127.0.0.1 10016 
+Jun 24 22:05:17.051 HYPERVISOR: exec_cmd: ethsw add_nio SWL2_INTERNET udp-4fed1f73-fe20-42e9-9c59-1582c3e8c674 
+Jun 24 22:05:17.055 HYPERVISOR: exec_cmd: ethsw set_access_port SWL2_INTERNET udp-4fed1f73-fe20-42e9-9c59-1582c3e8c674 1 
+Jun 24 22:05:23.712 HYPERVISOR: exec_cmd: nio create_udp udp-42b2022c-4b3b-499b-9166-dcd6b83e8a6a 10179 127.0.0.1 10178 
+Jun 24 22:05:23.712 HYPERVISOR: exec_cmd: ethsw add_nio SWL2_INTERNET udp-42b2022c-4b3b-499b-9166-dcd6b83e8a6a 
+Jun 24 22:05:23.719 HYPERVISOR: exec_cmd: ethsw set_access_port SWL2_INTERNET udp-42b2022c-4b3b-499b-9166-dcd6b83e8a6a 1 
+Jun 24 22:05:23.841 HYPERVISOR: exec_cmd: nio create_udp udp-25a07030-dcef-4b18-929d-47ab241fb16d 10182 127.0.0.1 10183 
+Jun 24 22:05:23.841 HYPERVISOR: exec_cmd: ethsw add_nio SWL2_INTERNET udp-25a07030-dcef-4b18-929d-47ab241fb16d 
+Jun 24 22:05:23.865 HYPERVISOR: exec_cmd: ethsw set_access_port SWL2_INTERNET udp-25a07030-dcef-4b18-929d-47ab241fb16d 1 

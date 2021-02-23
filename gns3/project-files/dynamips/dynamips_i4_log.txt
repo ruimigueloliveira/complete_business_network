@@ -1,0 +1,39 @@
+Jun 26 14:03:00.732 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Jun 26 14:03:00.733 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 57113.
+Jun 26 14:03:00.744 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 26 14:03:00.744 HYPERVISOR: exec_cmd: hypervisor working_dir /home/miguel/Desktop/ar/projeto/gns3/project-files/dynamips 
+Jun 26 14:03:00.744 GENERAL: working_dir=/home/miguel/Desktop/ar/projeto/gns3/project-files/dynamips
+Jun 26 14:03:00.744 HYPERVISOR: exec_cmd: hypervisor working_dir /home/miguel/Desktop/ar/projeto/gns3/project-files/dynamips/15c81966-75f3-4061-9276-d9b31c4ccfd9 
+Jun 26 14:03:00.744 GENERAL: working_dir=/home/miguel/Desktop/ar/projeto/gns3/project-files/dynamips/15c81966-75f3-4061-9276-d9b31c4ccfd9
+Jun 26 14:03:00.744 HYPERVISOR: exec_cmd: vm create ISP1_LISBOA 5 c7200 
+Jun 26 14:03:00.744 VM: VM ISP1_LISBOA created.
+Jun 26 14:03:00.745 HYPERVISOR: exec_cmd: vm set_con_tcp_port ISP1_LISBOA 5004 
+Jun 26 14:03:00.745 HYPERVISOR: exec_cmd: c7200 get_mac_addr ISP1_LISBOA 
+Jun 26 14:03:00.750 HYPERVISOR: exec_cmd: vm get_status ISP1_LISBOA 
+Jun 26 14:03:00.750 HYPERVISOR: exec_cmd: vm slot_add_binding ISP1_LISBOA 0 0 C7200-IO-FE 
+Jun 26 14:03:00.751 HYPERVISOR: exec_cmd: vm set_disk0 ISP1_LISBOA 0 
+Jun 26 14:03:00.751 HYPERVISOR: exec_cmd: vm get_status ISP1_LISBOA 
+Jun 26 14:03:00.751 HYPERVISOR: exec_cmd: vm set_idle_pc ISP1_LISBOA 0x60608040 
+Jun 26 14:03:00.752 HYPERVISOR: exec_cmd: vm set_ios ISP1_LISBOA /home/miguel/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Jun 26 14:03:00.752 HYPERVISOR: exec_cmd: c7200 set_mac_addr ISP1_LISBOA ca05.2035.0000 
+Jun 26 14:03:00.752 HYPERVISOR: exec_cmd: vm set_nvram ISP1_LISBOA 512 
+Jun 26 14:03:00.752 HYPERVISOR: exec_cmd: vm set_ram ISP1_LISBOA 512 
+Jun 26 14:03:00.753 HYPERVISOR: exec_cmd: vm get_status ISP1_LISBOA 
+Jun 26 14:03:00.753 HYPERVISOR: exec_cmd: vm slot_remove_binding ISP1_LISBOA 0 0 
+Jun 26 14:03:00.753 HYPERVISOR: exec_cmd: vm get_status ISP1_LISBOA 
+Jun 26 14:03:00.753 HYPERVISOR: exec_cmd: vm slot_add_binding ISP1_LISBOA 0 0 C7200-IO-2FE 
+Jun 26 14:03:00.753 HYPERVISOR: exec_cmd: vm get_status ISP1_LISBOA 
+Jun 26 14:03:00.753 HYPERVISOR: exec_cmd: vm slot_add_binding ISP1_LISBOA 1 0 PA-2FE-TX 
+Jun 26 14:03:00.753 HYPERVISOR: exec_cmd: vm get_status ISP1_LISBOA 
+Jun 26 14:03:00.754 HYPERVISOR: exec_cmd: vm slot_add_binding ISP1_LISBOA 2 0 PA-2FE-TX 
+Jun 26 14:03:00.754 HYPERVISOR: exec_cmd: vm get_status ISP1_LISBOA 
+Jun 26 14:03:00.754 HYPERVISOR: exec_cmd: vm slot_add_binding ISP1_LISBOA 3 0 PA-2FE-TX 
+Jun 26 14:03:02.322 HYPERVISOR: exec_cmd: nio create_udp udp-806ca2a6-2f44-4e6f-af53-f49640174669 10012 127.0.0.1 10013 
+Jun 26 14:03:02.535 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ISP1_LISBOA 0 0 udp-806ca2a6-2f44-4e6f-af53-f49640174669 
+Jun 26 14:03:02.535 HYPERVISOR: exec_cmd: vm get_status ISP1_LISBOA 
+Jun 26 14:03:08.933 HYPERVISOR: exec_cmd: nio create_udp udp-94b4de5a-fbac-48ec-9e37-8a61ce5c8751 10166 127.0.0.1 10167 
+Jun 26 14:03:08.935 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ISP1_LISBOA 0 1 udp-94b4de5a-fbac-48ec-9e37-8a61ce5c8751 
+Jun 26 14:03:08.935 HYPERVISOR: exec_cmd: vm get_status ISP1_LISBOA 
+Jun 26 14:03:10.269 HYPERVISOR: exec_cmd: nio create_udp udp-71441acd-ca24-4875-ad26-c02a0d46a8ed 10204 127.0.0.1 10205 
+Jun 26 14:03:10.270 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ISP1_LISBOA 1 0 udp-71441acd-ca24-4875-ad26-c02a0d46a8ed 
+Jun 26 14:03:10.270 HYPERVISOR: exec_cmd: vm get_status ISP1_LISBOA 

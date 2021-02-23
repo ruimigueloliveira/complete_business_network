@@ -1,0 +1,36 @@
+Jun 26 14:03:01.184 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Jun 26 14:03:01.184 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 59349.
+Jun 26 14:03:01.194 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 26 14:03:01.195 HYPERVISOR: exec_cmd: hypervisor working_dir /home/miguel/Desktop/ar/projeto/gns3/project-files/dynamips 
+Jun 26 14:03:01.195 GENERAL: working_dir=/home/miguel/Desktop/ar/projeto/gns3/project-files/dynamips
+Jun 26 14:03:01.195 HYPERVISOR: exec_cmd: hypervisor working_dir /home/miguel/Desktop/ar/projeto/gns3/project-files/dynamips/b237a03f-1f5a-4c41-bac2-6e7d762e38b0 
+Jun 26 14:03:01.195 GENERAL: working_dir=/home/miguel/Desktop/ar/projeto/gns3/project-files/dynamips/b237a03f-1f5a-4c41-bac2-6e7d762e38b0
+Jun 26 14:03:01.195 HYPERVISOR: exec_cmd: vm create ANTENA_AVEIRO 14 c7200 
+Jun 26 14:03:01.195 VM: VM ANTENA_AVEIRO created.
+Jun 26 14:03:01.195 HYPERVISOR: exec_cmd: vm set_con_tcp_port ANTENA_AVEIRO 5027 
+Jun 26 14:03:01.195 HYPERVISOR: exec_cmd: c7200 get_mac_addr ANTENA_AVEIRO 
+Jun 26 14:03:01.195 HYPERVISOR: exec_cmd: vm get_status ANTENA_AVEIRO 
+Jun 26 14:03:01.196 HYPERVISOR: exec_cmd: vm slot_add_binding ANTENA_AVEIRO 0 0 C7200-IO-FE 
+Jun 26 14:03:01.196 HYPERVISOR: exec_cmd: vm set_disk0 ANTENA_AVEIRO 0 
+Jun 26 14:03:01.196 HYPERVISOR: exec_cmd: vm get_status ANTENA_AVEIRO 
+Jun 26 14:03:01.196 HYPERVISOR: exec_cmd: vm set_idle_pc ANTENA_AVEIRO 0x0 
+Jun 26 14:03:01.197 HYPERVISOR: exec_cmd: vm set_ios ANTENA_AVEIRO /home/miguel/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Jun 26 14:03:01.197 HYPERVISOR: exec_cmd: c7200 set_mac_addr ANTENA_AVEIRO ca0e.29ee.0000 
+Jun 26 14:03:01.198 HYPERVISOR: exec_cmd: vm set_nvram ANTENA_AVEIRO 512 
+Jun 26 14:03:01.198 HYPERVISOR: exec_cmd: vm set_ram ANTENA_AVEIRO 512 
+Jun 26 14:03:01.198 HYPERVISOR: exec_cmd: vm get_status ANTENA_AVEIRO 
+Jun 26 14:03:01.198 HYPERVISOR: exec_cmd: vm slot_remove_binding ANTENA_AVEIRO 0 0 
+Jun 26 14:03:01.198 HYPERVISOR: exec_cmd: vm get_status ANTENA_AVEIRO 
+Jun 26 14:03:01.198 HYPERVISOR: exec_cmd: vm slot_add_binding ANTENA_AVEIRO 0 0 C7200-IO-2FE 
+Jun 26 14:03:01.199 HYPERVISOR: exec_cmd: vm get_status ANTENA_AVEIRO 
+Jun 26 14:03:01.199 HYPERVISOR: exec_cmd: vm slot_add_binding ANTENA_AVEIRO 1 0 PA-2FE-TX 
+Jun 26 14:03:01.199 HYPERVISOR: exec_cmd: vm get_status ANTENA_AVEIRO 
+Jun 26 14:03:01.199 HYPERVISOR: exec_cmd: vm slot_add_binding ANTENA_AVEIRO 2 0 PA-2FE-TX 
+Jun 26 14:03:01.199 HYPERVISOR: exec_cmd: vm get_status ANTENA_AVEIRO 
+Jun 26 14:03:01.199 HYPERVISOR: exec_cmd: vm slot_add_binding ANTENA_AVEIRO 3 0 PA-2FE-TX 
+Jun 26 14:03:07.781 HYPERVISOR: exec_cmd: nio create_udp udp-938b196f-642d-4a73-b76b-cdd55bdcbaee 10144 127.0.0.1 10145 
+Jun 26 14:03:07.996 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ANTENA_AVEIRO 1 0 udp-938b196f-642d-4a73-b76b-cdd55bdcbaee 
+Jun 26 14:03:07.997 HYPERVISOR: exec_cmd: vm get_status ANTENA_AVEIRO 
+Jun 26 14:03:09.517 HYPERVISOR: exec_cmd: nio create_udp udp-faeb8111-6365-45d2-96d1-f3f71201f429 10184 127.0.0.1 10185 
+Jun 26 14:03:09.518 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ANTENA_AVEIRO 0 1 udp-faeb8111-6365-45d2-96d1-f3f71201f429 
+Jun 26 14:03:09.518 HYPERVISOR: exec_cmd: vm get_status ANTENA_AVEIRO 

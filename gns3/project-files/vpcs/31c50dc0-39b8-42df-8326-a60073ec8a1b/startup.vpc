@@ -1,0 +1,3 @@
+set pcname AVEIRO_INV_WIFI
+ip 10.12.0.1 10.12.0.14 24
+ip 2001:a:a:c00::1/64

@@ -1,0 +1,39 @@
+Jun 26 14:03:00.697 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Jun 26 14:03:00.697 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 55243.
+Jun 26 14:03:00.708 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 26 14:03:00.708 HYPERVISOR: exec_cmd: hypervisor working_dir /home/miguel/Desktop/ar/projeto/gns3/project-files/dynamips 
+Jun 26 14:03:00.708 GENERAL: working_dir=/home/miguel/Desktop/ar/projeto/gns3/project-files/dynamips
+Jun 26 14:03:00.708 HYPERVISOR: exec_cmd: hypervisor working_dir /home/miguel/Desktop/ar/projeto/gns3/project-files/dynamips/21b34eee-e7d9-43f7-b9a9-f5bd613d8a3b 
+Jun 26 14:03:00.708 GENERAL: working_dir=/home/miguel/Desktop/ar/projeto/gns3/project-files/dynamips/21b34eee-e7d9-43f7-b9a9-f5bd613d8a3b
+Jun 26 14:03:00.709 HYPERVISOR: exec_cmd: vm create ISP2_BOSTON 4 c7200 
+Jun 26 14:03:00.709 VM: VM ISP2_BOSTON created.
+Jun 26 14:03:00.709 HYPERVISOR: exec_cmd: vm set_con_tcp_port ISP2_BOSTON 5003 
+Jun 26 14:03:00.710 HYPERVISOR: exec_cmd: c7200 get_mac_addr ISP2_BOSTON 
+Jun 26 14:03:00.710 HYPERVISOR: exec_cmd: vm get_status ISP2_BOSTON 
+Jun 26 14:03:00.710 HYPERVISOR: exec_cmd: vm slot_add_binding ISP2_BOSTON 0 0 C7200-IO-FE 
+Jun 26 14:03:00.711 HYPERVISOR: exec_cmd: vm set_disk0 ISP2_BOSTON 0 
+Jun 26 14:03:00.711 HYPERVISOR: exec_cmd: vm get_status ISP2_BOSTON 
+Jun 26 14:03:00.711 HYPERVISOR: exec_cmd: vm set_idle_pc ISP2_BOSTON 0x60608040 
+Jun 26 14:03:00.713 HYPERVISOR: exec_cmd: vm set_ios ISP2_BOSTON /home/miguel/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Jun 26 14:03:00.713 HYPERVISOR: exec_cmd: c7200 set_mac_addr ISP2_BOSTON ca04.2026.0000 
+Jun 26 14:03:00.714 HYPERVISOR: exec_cmd: vm set_nvram ISP2_BOSTON 512 
+Jun 26 14:03:00.714 HYPERVISOR: exec_cmd: vm set_ram ISP2_BOSTON 512 
+Jun 26 14:03:00.714 HYPERVISOR: exec_cmd: vm get_status ISP2_BOSTON 
+Jun 26 14:03:00.714 HYPERVISOR: exec_cmd: vm slot_remove_binding ISP2_BOSTON 0 0 
+Jun 26 14:03:00.714 HYPERVISOR: exec_cmd: vm get_status ISP2_BOSTON 
+Jun 26 14:03:00.714 HYPERVISOR: exec_cmd: vm slot_add_binding ISP2_BOSTON 0 0 C7200-IO-2FE 
+Jun 26 14:03:00.715 HYPERVISOR: exec_cmd: vm get_status ISP2_BOSTON 
+Jun 26 14:03:00.715 HYPERVISOR: exec_cmd: vm slot_add_binding ISP2_BOSTON 1 0 PA-2FE-TX 
+Jun 26 14:03:00.715 HYPERVISOR: exec_cmd: vm get_status ISP2_BOSTON 
+Jun 26 14:03:00.715 HYPERVISOR: exec_cmd: vm slot_add_binding ISP2_BOSTON 2 0 PA-2FE-TX 
+Jun 26 14:03:00.715 HYPERVISOR: exec_cmd: vm get_status ISP2_BOSTON 
+Jun 26 14:03:00.715 HYPERVISOR: exec_cmd: vm slot_add_binding ISP2_BOSTON 3 0 PA-2FE-TX 
+Jun 26 14:03:06.483 HYPERVISOR: exec_cmd: nio create_udp udp-5ba0ac45-5b65-4ca9-97e9-da63942c9641 10122 127.0.0.1 10123 
+Jun 26 14:03:06.702 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ISP2_BOSTON 0 1 udp-5ba0ac45-5b65-4ca9-97e9-da63942c9641 
+Jun 26 14:03:06.703 HYPERVISOR: exec_cmd: vm get_status ISP2_BOSTON 
+Jun 26 14:03:08.498 HYPERVISOR: exec_cmd: nio create_udp udp-f3e120c4-50c7-4e57-b85c-6c299fbd6cf0 10154 127.0.0.1 10155 
+Jun 26 14:03:08.499 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ISP2_BOSTON 0 0 udp-f3e120c4-50c7-4e57-b85c-6c299fbd6cf0 
+Jun 26 14:03:08.499 HYPERVISOR: exec_cmd: vm get_status ISP2_BOSTON 
+Jun 26 14:03:09.785 HYPERVISOR: exec_cmd: nio create_udp udp-8807786f-9a5d-423d-8bc3-830094980c3b 10192 127.0.0.1 10193 
+Jun 26 14:03:09.786 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ISP2_BOSTON 1 0 udp-8807786f-9a5d-423d-8bc3-830094980c3b 
+Jun 26 14:03:09.786 HYPERVISOR: exec_cmd: vm get_status ISP2_BOSTON 

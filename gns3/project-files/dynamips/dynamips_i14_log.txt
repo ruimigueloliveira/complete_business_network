@@ -1,0 +1,21 @@
+Jun 26 14:03:01.114 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Jun 26 14:03:01.114 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 51281.
+Jun 26 14:03:01.127 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 26 14:03:01.127 HYPERVISOR: exec_cmd: hypervisor working_dir /home/miguel/Desktop/ar/projeto/gns3/project-files/dynamips 
+Jun 26 14:03:01.127 GENERAL: working_dir=/home/miguel/Desktop/ar/projeto/gns3/project-files/dynamips
+Jun 26 14:03:01.127 HYPERVISOR: exec_cmd: ethsw create SWL2_AVEIRO_SERV 
+Jun 26 14:03:05.817 HYPERVISOR: exec_cmd: nio create_udp udp-0820804c-b9c2-4c30-9169-0a99e3d779f3 10107 127.0.0.1 10106 
+Jun 26 14:03:05.817 HYPERVISOR: exec_cmd: ethsw add_nio SWL2_AVEIRO_SERV udp-0820804c-b9c2-4c30-9169-0a99e3d779f3 
+Jun 26 14:03:05.828 HYPERVISOR: exec_cmd: ethsw set_dot1q_port SWL2_AVEIRO_SERV udp-0820804c-b9c2-4c30-9169-0a99e3d779f3 1 
+Jun 26 14:03:05.949 HYPERVISOR: exec_cmd: nio create_udp udp-f3e9863b-b251-4e25-9012-c0db31403493 10111 127.0.0.1 10110 
+Jun 26 14:03:05.949 HYPERVISOR: exec_cmd: ethsw add_nio SWL2_AVEIRO_SERV udp-f3e9863b-b251-4e25-9012-c0db31403493 
+Jun 26 14:03:05.969 HYPERVISOR: exec_cmd: ethsw set_dot1q_port SWL2_AVEIRO_SERV udp-f3e9863b-b251-4e25-9012-c0db31403493 1 
+Jun 26 14:03:06.108 HYPERVISOR: exec_cmd: nio create_udp udp-59046b61-9ad2-42bc-b0b7-6458b9be21a1 10114 127.0.0.1 10115 
+Jun 26 14:03:06.108 HYPERVISOR: exec_cmd: ethsw add_nio SWL2_AVEIRO_SERV udp-59046b61-9ad2-42bc-b0b7-6458b9be21a1 
+Jun 26 14:03:06.109 HYPERVISOR: exec_cmd: ethsw set_access_port SWL2_AVEIRO_SERV udp-59046b61-9ad2-42bc-b0b7-6458b9be21a1 10 
+Jun 26 14:03:06.223 HYPERVISOR: exec_cmd: nio create_udp udp-4ab61148-6d7d-4681-9548-e978f73de33a 10116 127.0.0.1 10117 
+Jun 26 14:03:06.223 HYPERVISOR: exec_cmd: ethsw add_nio SWL2_AVEIRO_SERV udp-4ab61148-6d7d-4681-9548-e978f73de33a 
+Jun 26 14:03:06.230 HYPERVISOR: exec_cmd: ethsw set_access_port SWL2_AVEIRO_SERV udp-4ab61148-6d7d-4681-9548-e978f73de33a 11 
+Jun 26 14:03:06.344 HYPERVISOR: exec_cmd: nio create_udp udp-bc3f59f3-1a3e-427e-9866-56b7c2d169cb 10118 127.0.0.1 10119 
+Jun 26 14:03:06.344 HYPERVISOR: exec_cmd: ethsw add_nio SWL2_AVEIRO_SERV udp-bc3f59f3-1a3e-427e-9866-56b7c2d169cb 
+Jun 26 14:03:06.351 HYPERVISOR: exec_cmd: ethsw set_access_port SWL2_AVEIRO_SERV udp-bc3f59f3-1a3e-427e-9866-56b7c2d169cb 12 

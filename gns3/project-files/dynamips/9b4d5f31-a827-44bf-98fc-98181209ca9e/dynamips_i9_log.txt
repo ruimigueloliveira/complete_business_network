@@ -1,0 +1,27 @@
+Jun 22 11:27:20.785 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Jun 22 11:27:20.785 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 51833.
+Jun 22 11:27:20.795 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 22 11:27:20.795 HYPERVISOR: exec_cmd: hypervisor working_dir /home/miguel/Desktop/ar/projeto/gns3/project-files/dynamips 
+Jun 22 11:27:20.795 GENERAL: working_dir=/home/miguel/Desktop/ar/projeto/gns3/project-files/dynamips
+Jun 22 11:27:20.796 HYPERVISOR: exec_cmd: hypervisor working_dir /home/miguel/Desktop/ar/projeto/gns3/project-files/dynamips/cfd847fa-53e6-4f93-ade2-f7da09769e49 
+Jun 22 11:27:20.796 GENERAL: working_dir=/home/miguel/Desktop/ar/projeto/gns3/project-files/dynamips/cfd847fa-53e6-4f93-ade2-f7da09769e49
+Jun 22 11:27:20.796 HYPERVISOR: exec_cmd: vm create ESW4 10 c3725 
+Jun 22 11:27:20.796 VM: VM ESW4 created.
+Jun 22 11:27:20.796 HYPERVISOR: exec_cmd: vm set_con_tcp_port ESW4 5009 
+Jun 22 11:27:20.796 HYPERVISOR: exec_cmd: c3725 get_mac_addr ESW4 
+Jun 22 11:27:20.796 HYPERVISOR: exec_cmd: vm set_disk0 ESW4 1 
+Jun 22 11:27:20.796 HYPERVISOR: exec_cmd: vm get_status ESW4 
+Jun 22 11:27:20.796 HYPERVISOR: exec_cmd: vm set_idle_pc ESW4 0x60a68e70 
+Jun 22 11:27:20.797 HYPERVISOR: exec_cmd: vm set_ios ESW4 /home/miguel/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Jun 22 11:27:20.797 HYPERVISOR: exec_cmd: c3725 set_mac_addr ESW4 c20a.21c6.0000 
+Jun 22 11:27:20.797 HYPERVISOR: exec_cmd: vm set_nvram ESW4 256 
+Jun 22 11:27:20.797 HYPERVISOR: exec_cmd: vm set_ram ESW4 256 
+Jun 22 11:27:20.798 HYPERVISOR: exec_cmd: vm get_status ESW4 
+Jun 22 11:27:20.798 HYPERVISOR: exec_cmd: vm slot_add_binding ESW4 1 0 NM-16ESW 
+Jun 22 11:27:22.159 HYPERVISOR: exec_cmd: vm get_status ESW4 
+Jun 22 11:27:22.162 HYPERVISOR: exec_cmd: vm extract_config ESW4 
+Jun 22 11:27:22.166 HYPERVISOR: exec_cmd: vm delete ESW4 
+Jun 22 11:27:22.166 VM: VM ESW4 destroyed.
+Jun 22 11:27:22.169 HYPERVISOR: exec_cmd: hypervisor stop 
+Jun 22 11:27:22.296 HYPERVISOR: Stopped.
+Jun 22 11:27:22.296 GENERAL: reset done.

@@ -1,0 +1,35 @@
+Jun 24 20:01:49.834 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Jun 24 20:01:49.835 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 56759.
+Jun 24 20:01:49.847 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 24 20:01:49.848 HYPERVISOR: exec_cmd: hypervisor working_dir /home/miguel/Desktop/ar/projeto/gns3/project-files/dynamips 
+Jun 24 20:01:49.848 GENERAL: working_dir=/home/miguel/Desktop/ar/projeto/gns3/project-files/dynamips
+Jun 24 20:01:49.848 HYPERVISOR: exec_cmd: ethsw create SWL2_AVEIRO_SERV 
+Jun 24 20:01:54.466 HYPERVISOR: exec_cmd: nio create_udp udp-49884e31-94e7-4220-8e43-9af047b4f3cf 10127 127.0.0.1 10126 
+Jun 24 20:01:54.467 HYPERVISOR: exec_cmd: ethsw add_nio SWL2_AVEIRO_SERV udp-49884e31-94e7-4220-8e43-9af047b4f3cf 
+Jun 24 20:01:54.476 HYPERVISOR: exec_cmd: ethsw set_dot1q_port SWL2_AVEIRO_SERV udp-49884e31-94e7-4220-8e43-9af047b4f3cf 1 
+Jun 24 20:01:54.560 HYPERVISOR: exec_cmd: nio create_udp udp-28db7e85-7dad-4439-b219-e7f36dd0f3f1 10131 127.0.0.1 10130 
+Jun 24 20:01:54.561 HYPERVISOR: exec_cmd: ethsw add_nio SWL2_AVEIRO_SERV udp-28db7e85-7dad-4439-b219-e7f36dd0f3f1 
+Jun 24 20:01:54.577 HYPERVISOR: exec_cmd: ethsw set_dot1q_port SWL2_AVEIRO_SERV udp-28db7e85-7dad-4439-b219-e7f36dd0f3f1 1 
+Jun 24 20:01:54.647 HYPERVISOR: exec_cmd: nio create_udp udp-547bfa98-a194-4a86-afdc-8ef502a90d6f 10134 127.0.0.1 10135 
+Jun 24 20:01:54.647 HYPERVISOR: exec_cmd: ethsw add_nio SWL2_AVEIRO_SERV udp-547bfa98-a194-4a86-afdc-8ef502a90d6f 
+Jun 24 20:01:54.657 HYPERVISOR: exec_cmd: ethsw set_access_port SWL2_AVEIRO_SERV udp-547bfa98-a194-4a86-afdc-8ef502a90d6f 10 
+Jun 24 20:01:54.728 HYPERVISOR: exec_cmd: nio create_udp udp-d6beb916-9d5a-4c5b-8c7b-692e0bab9026 10136 127.0.0.1 10137 
+Jun 24 20:01:54.728 HYPERVISOR: exec_cmd: ethsw add_nio SWL2_AVEIRO_SERV udp-d6beb916-9d5a-4c5b-8c7b-692e0bab9026 
+Jun 24 20:01:54.737 HYPERVISOR: exec_cmd: ethsw set_access_port SWL2_AVEIRO_SERV udp-d6beb916-9d5a-4c5b-8c7b-692e0bab9026 11 
+Jun 24 20:01:54.821 HYPERVISOR: exec_cmd: nio create_udp udp-40f92bc8-99ad-4e0a-ac64-3ae0949d8937 10138 127.0.0.1 10139 
+Jun 24 20:01:54.822 HYPERVISOR: exec_cmd: ethsw add_nio SWL2_AVEIRO_SERV udp-40f92bc8-99ad-4e0a-ac64-3ae0949d8937 
+Jun 24 20:01:54.837 HYPERVISOR: exec_cmd: ethsw set_access_port SWL2_AVEIRO_SERV udp-40f92bc8-99ad-4e0a-ac64-3ae0949d8937 12 
+Jun 24 20:28:10.679 HYPERVISOR: exec_cmd: ethsw set_dot1q_port SWL2_AVEIRO_SERV udp-49884e31-94e7-4220-8e43-9af047b4f3cf 1 
+Jun 24 20:28:10.704 HYPERVISOR: exec_cmd: ethsw set_dot1q_port SWL2_AVEIRO_SERV udp-28db7e85-7dad-4439-b219-e7f36dd0f3f1 1 
+Jun 24 20:28:10.749 HYPERVISOR: exec_cmd: ethsw set_access_port SWL2_AVEIRO_SERV udp-547bfa98-a194-4a86-afdc-8ef502a90d6f 10 
+Jun 24 20:28:11.455 HYPERVISOR: exec_cmd: ethsw set_access_port SWL2_AVEIRO_SERV udp-d6beb916-9d5a-4c5b-8c7b-692e0bab9026 11 
+Jun 24 20:28:11.980 HYPERVISOR: exec_cmd: ethsw set_access_port SWL2_AVEIRO_SERV udp-40f92bc8-99ad-4e0a-ac64-3ae0949d8937 12 
+Jun 24 20:29:00.894 HYPERVISOR: exec_cmd: ethsw set_dot1q_port SWL2_AVEIRO_SERV udp-49884e31-94e7-4220-8e43-9af047b4f3cf 1 
+Jun 24 20:29:02.476 HYPERVISOR: exec_cmd: ethsw set_dot1q_port SWL2_AVEIRO_SERV udp-28db7e85-7dad-4439-b219-e7f36dd0f3f1 1 
+Jun 24 20:29:02.558 HYPERVISOR: exec_cmd: ethsw set_access_port SWL2_AVEIRO_SERV udp-547bfa98-a194-4a86-afdc-8ef502a90d6f 10 
+Jun 24 20:29:04.374 HYPERVISOR: exec_cmd: ethsw set_access_port SWL2_AVEIRO_SERV udp-d6beb916-9d5a-4c5b-8c7b-692e0bab9026 11 
+Jun 24 20:29:04.380 HYPERVISOR: exec_cmd: ethsw set_access_port SWL2_AVEIRO_SERV udp-40f92bc8-99ad-4e0a-ac64-3ae0949d8937 12 
+Jun 24 21:11:40.187 HYPERVISOR: exec_cmd: ethsw delete SWL2_AVEIRO_SERV 
+Jun 24 21:11:40.286 HYPERVISOR: exec_cmd: hypervisor stop 
+Jun 24 21:11:40.384 HYPERVISOR: Stopped.
+Jun 24 21:11:40.384 GENERAL: reset done.

@@ -1,0 +1,103 @@
+Jun 22 09:28:07.300 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Jun 22 09:28:07.300 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 56333.
+Jun 22 09:28:07.311 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 22 09:28:07.311 HYPERVISOR: exec_cmd: hypervisor working_dir /home/miguel/Desktop/ar/projeto/gns3/project-files/dynamips 
+Jun 22 09:28:07.311 GENERAL: working_dir=/home/miguel/Desktop/ar/projeto/gns3/project-files/dynamips
+Jun 22 09:28:07.311 HYPERVISOR: exec_cmd: hypervisor working_dir /home/miguel/Desktop/ar/projeto/gns3/project-files/dynamips/21b34eee-e7d9-43f7-b9a9-f5bd613d8a3b 
+Jun 22 09:28:07.311 GENERAL: working_dir=/home/miguel/Desktop/ar/projeto/gns3/project-files/dynamips/21b34eee-e7d9-43f7-b9a9-f5bd613d8a3b
+Jun 22 09:28:07.311 HYPERVISOR: exec_cmd: vm create R16 4 c7200 
+Jun 22 09:28:07.311 VM: VM R16 created.
+Jun 22 09:28:07.312 HYPERVISOR: exec_cmd: vm set_con_tcp_port R16 5003 
+Jun 22 09:28:07.312 HYPERVISOR: exec_cmd: c7200 get_mac_addr R16 
+Jun 22 09:28:07.312 HYPERVISOR: exec_cmd: vm get_status R16 
+Jun 22 09:28:07.312 HYPERVISOR: exec_cmd: vm slot_add_binding R16 0 0 C7200-IO-FE 
+Jun 22 09:28:07.312 HYPERVISOR: exec_cmd: vm set_disk0 R16 0 
+Jun 22 09:28:07.312 HYPERVISOR: exec_cmd: vm get_status R16 
+Jun 22 09:28:07.312 HYPERVISOR: exec_cmd: vm set_idle_pc R16 0x60608040 
+Jun 22 09:28:07.313 HYPERVISOR: exec_cmd: vm set_ios R16 /home/miguel/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Jun 22 09:28:07.313 HYPERVISOR: exec_cmd: c7200 set_mac_addr R16 ca04.2026.0000 
+Jun 22 09:28:07.313 HYPERVISOR: exec_cmd: vm set_nvram R16 512 
+Jun 22 09:28:07.313 HYPERVISOR: exec_cmd: vm set_ram R16 512 
+Jun 22 09:28:07.314 HYPERVISOR: exec_cmd: vm get_status R16 
+Jun 22 09:28:07.314 HYPERVISOR: exec_cmd: vm slot_remove_binding R16 0 0 
+Jun 22 09:28:07.314 HYPERVISOR: exec_cmd: vm get_status R16 
+Jun 22 09:28:07.314 HYPERVISOR: exec_cmd: vm slot_add_binding R16 0 0 C7200-IO-2FE 
+Jun 22 09:28:07.314 HYPERVISOR: exec_cmd: vm get_status R16 
+Jun 22 09:28:07.314 HYPERVISOR: exec_cmd: vm slot_add_binding R16 1 0 PA-2FE-TX 
+Jun 22 09:28:07.314 HYPERVISOR: exec_cmd: vm get_status R16 
+Jun 22 09:28:07.314 HYPERVISOR: exec_cmd: vm slot_add_binding R16 2 0 PA-2FE-TX 
+Jun 22 09:28:07.315 HYPERVISOR: exec_cmd: vm get_status R16 
+Jun 22 09:28:07.315 HYPERVISOR: exec_cmd: vm slot_add_binding R16 3 0 PA-2FE-TX 
+Jun 22 09:28:07.934 HYPERVISOR: exec_cmd: nio create_udp udp-1dffd0d5-2baf-4cf3-b69a-7b17a9d8d42f 10002 127.0.0.1 10003 
+Jun 22 09:28:08.150 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R16 1 0 udp-1dffd0d5-2baf-4cf3-b69a-7b17a9d8d42f 
+Jun 22 09:28:08.151 HYPERVISOR: exec_cmd: vm get_status R16 
+Jun 22 09:28:13.592 HYPERVISOR: exec_cmd: nio create_udp udp-9f740a64-acc2-4346-b61c-380cafee01f1 10160 127.0.0.1 10161 
+Jun 22 09:28:13.593 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R16 0 1 udp-9f740a64-acc2-4346-b61c-380cafee01f1 
+Jun 22 09:28:13.593 HYPERVISOR: exec_cmd: vm get_status R16 
+Jun 22 09:28:14.949 HYPERVISOR: exec_cmd: nio create_udp udp-96602692-9558-44ff-8d44-3f213ab1bf40 10198 127.0.0.1 10199 
+Jun 22 09:28:14.951 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R16 0 0 udp-96602692-9558-44ff-8d44-3f213ab1bf40 
+Jun 22 09:28:14.951 HYPERVISOR: exec_cmd: vm get_status R16 
+Jun 22 09:32:34.288 HYPERVISOR: exec_cmd: vm set_ios R16 /home/miguel/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Jun 22 09:46:49.402 HYPERVISOR: exec_cmd: vm set_ios R16 /home/miguel/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Jun 22 09:47:16.347 HYPERVISOR: exec_cmd: vm set_ios R16 /home/miguel/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Jun 22 09:48:33.629 HYPERVISOR: exec_cmd: vm set_ios R16 /home/miguel/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Jun 22 09:51:32.471 HYPERVISOR: exec_cmd: vm set_ghost_status R16 2 
+Jun 22 09:51:32.474 HYPERVISOR: exec_cmd: vm set_ghost_file R16 /home/miguel/Desktop/ar/projeto/gns3/project-files/dynamips/c7200-adventerprisek9-mz.151-4.M2.image-512.ghost 
+Jun 22 09:51:32.476 HYPERVISOR: exec_cmd: vm get_status R16 
+Jun 22 09:51:32.479 HYPERVISOR: exec_cmd: vm set_config R16 configs/i4_startup-config.cfg 
+Jun 22 09:51:32.480 HYPERVISOR: exec_cmd: vm start R16 
+Jun 22 09:52:02.718 HYPERVISOR: exec_cmd: vm extract_config R16 
+Jun 22 09:53:02.722 HYPERVISOR: exec_cmd: vm extract_config R16 
+Jun 22 10:03:32.746 HYPERVISOR: exec_cmd: vm extract_config R16 
+Jun 22 10:34:12.232 HYPERVISOR: exec_cmd: vm get_status R16 
+Jun 22 10:34:12.232 HYPERVISOR: exec_cmd: vm stop R16 
+Jun 22 10:34:12.352 VM: VM R16 shutdown.
+Jun 22 10:34:12.355 HYPERVISOR: exec_cmd: vm extract_config R16 
+Jun 22 10:34:18.479 HYPERVISOR: exec_cmd: vm set_ghost_status R16 2 
+Jun 22 10:34:18.482 HYPERVISOR: exec_cmd: vm set_ghost_file R16 /home/miguel/Desktop/ar/projeto/gns3/project-files/dynamips/c7200-adventerprisek9-mz.151-4.M2.image-512.ghost 
+Jun 22 10:34:18.483 HYPERVISOR: exec_cmd: vm get_status R16 
+Jun 22 10:34:18.485 HYPERVISOR: exec_cmd: vm set_config R16 configs/i4_startup-config.cfg configs/i4_private-config.cfg 
+Jun 22 10:34:18.486 HYPERVISOR: exec_cmd: vm start R16 
+Jun 22 10:34:27.259 HYPERVISOR: exec_cmd: vm set_ghost_status R16 2 
+Jun 22 10:34:27.262 HYPERVISOR: exec_cmd: vm set_ghost_file R16 /home/miguel/Desktop/ar/projeto/gns3/project-files/dynamips/c7200-adventerprisek9-mz.151-4.M2.image-512.ghost 
+Jun 22 10:34:27.263 HYPERVISOR: exec_cmd: vm get_status R16 
+Jun 22 10:49:01.270 HYPERVISOR: exec_cmd: vm get_status R16 
+Jun 22 10:49:01.271 HYPERVISOR: exec_cmd: vm stop R16 
+Jun 22 10:49:01.397 VM: VM R16 shutdown.
+Jun 22 10:49:01.398 HYPERVISOR: exec_cmd: vm extract_config R16 
+Jun 22 10:49:05.317 HYPERVISOR: exec_cmd: vm set_ghost_status R16 2 
+Jun 22 10:49:05.317 HYPERVISOR: exec_cmd: vm set_ghost_file R16 /home/miguel/Desktop/ar/projeto/gns3/project-files/dynamips/c7200-adventerprisek9-mz.151-4.M2.image-512.ghost 
+Jun 22 10:49:05.318 HYPERVISOR: exec_cmd: vm get_status R16 
+Jun 22 10:49:05.318 HYPERVISOR: exec_cmd: vm set_config R16 configs/i4_startup-config.cfg configs/i4_private-config.cfg 
+Jun 22 10:49:05.318 HYPERVISOR: exec_cmd: vm start R16 
+Jun 22 10:50:26.254 HYPERVISOR: exec_cmd: vm get_status R16 
+Jun 22 10:50:26.255 HYPERVISOR: exec_cmd: vm stop R16 
+Jun 22 10:50:26.380 VM: VM R16 shutdown.
+Jun 22 10:50:26.382 HYPERVISOR: exec_cmd: vm extract_config R16 
+Jun 22 10:51:33.649 HYPERVISOR: exec_cmd: vm get_status R16 
+Jun 22 10:51:33.650 HYPERVISOR: exec_cmd: vm extract_config R16 
+Jun 22 10:53:07.858 HYPERVISOR: exec_cmd: vm set_ghost_status R16 2 
+Jun 22 10:53:07.862 HYPERVISOR: exec_cmd: vm set_ghost_file R16 /home/miguel/Desktop/ar/projeto/gns3/project-files/dynamips/c7200-adventerprisek9-mz.151-4.M2.image-512.ghost 
+Jun 22 10:53:07.863 HYPERVISOR: exec_cmd: vm get_status R16 
+Jun 22 10:53:07.866 HYPERVISOR: exec_cmd: vm set_config R16 configs/i4_startup-config.cfg configs/i4_private-config.cfg 
+Jun 22 10:53:07.867 HYPERVISOR: exec_cmd: vm start R16 
+Jun 22 10:53:39.983 HYPERVISOR: exec_cmd: vm get_status R16 
+Jun 22 10:53:39.990 HYPERVISOR: exec_cmd: vm stop R16 
+Jun 22 10:53:40.126 VM: VM R16 shutdown.
+Jun 22 10:53:40.143 HYPERVISOR: exec_cmd: vm extract_config R16 
+Jun 22 10:53:49.730 HYPERVISOR: exec_cmd: vm set_ghost_status R16 2 
+Jun 22 10:53:49.732 HYPERVISOR: exec_cmd: vm set_ghost_file R16 /home/miguel/Desktop/ar/projeto/gns3/project-files/dynamips/c7200-adventerprisek9-mz.151-4.M2.image-512.ghost 
+Jun 22 10:53:49.733 HYPERVISOR: exec_cmd: vm get_status R16 
+Jun 22 10:53:49.735 HYPERVISOR: exec_cmd: vm set_config R16 configs/i4_startup-config.cfg configs/i4_private-config.cfg 
+Jun 22 10:53:49.736 HYPERVISOR: exec_cmd: vm start R16 
+Jun 22 10:54:48.359 HYPERVISOR: exec_cmd: vm get_status R16 
+Jun 22 10:54:48.360 HYPERVISOR: exec_cmd: vm stop R16 
+Jun 22 10:54:48.488 VM: VM R16 shutdown.
+Jun 22 10:54:48.494 HYPERVISOR: exec_cmd: vm extract_config R16 
+Jun 22 10:54:51.233 HYPERVISOR: exec_cmd: vm get_status R16 
+Jun 22 10:54:51.233 HYPERVISOR: exec_cmd: vm extract_config R16 
+Jun 22 10:54:51.234 HYPERVISOR: exec_cmd: vm delete R16 
+Jun 22 10:54:51.234 VM: VM R16 destroyed.
+Jun 22 10:54:51.234 HYPERVISOR: exec_cmd: hypervisor stop 
+Jun 22 10:54:51.520 HYPERVISOR: Stopped.
+Jun 22 10:54:51.520 GENERAL: reset done.

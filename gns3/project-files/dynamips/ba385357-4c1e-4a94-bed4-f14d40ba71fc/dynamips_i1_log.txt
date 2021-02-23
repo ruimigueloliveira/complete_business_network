@@ -1,0 +1,40 @@
+Jun 22 11:27:20.551 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Jun 22 11:27:20.551 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 55077.
+Jun 22 11:27:20.556 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 22 11:27:20.557 HYPERVISOR: exec_cmd: hypervisor working_dir /home/miguel/Desktop/ar/projeto/gns3/project-files/dynamips 
+Jun 22 11:27:20.557 GENERAL: working_dir=/home/miguel/Desktop/ar/projeto/gns3/project-files/dynamips
+Jun 22 11:27:20.557 HYPERVISOR: exec_cmd: hypervisor working_dir /home/miguel/Desktop/ar/projeto/gns3/project-files/dynamips/ba385357-4c1e-4a94-bed4-f14d40ba71fc 
+Jun 22 11:27:20.557 GENERAL: working_dir=/home/miguel/Desktop/ar/projeto/gns3/project-files/dynamips/ba385357-4c1e-4a94-bed4-f14d40ba71fc
+Jun 22 11:27:20.557 HYPERVISOR: exec_cmd: vm create R10 1 c7200 
+Jun 22 11:27:20.557 VM: VM R10 created.
+Jun 22 11:27:20.557 HYPERVISOR: exec_cmd: vm set_con_tcp_port R10 5000 
+Jun 22 11:27:20.557 HYPERVISOR: exec_cmd: c7200 get_mac_addr R10 
+Jun 22 11:27:20.558 HYPERVISOR: exec_cmd: vm get_status R10 
+Jun 22 11:27:20.558 HYPERVISOR: exec_cmd: vm slot_add_binding R10 0 0 C7200-IO-FE 
+Jun 22 11:27:20.558 HYPERVISOR: exec_cmd: vm set_disk0 R10 0 
+Jun 22 11:27:20.558 HYPERVISOR: exec_cmd: vm get_status R10 
+Jun 22 11:27:20.558 HYPERVISOR: exec_cmd: vm set_idle_pc R10 0x60608040 
+Jun 22 11:27:20.559 HYPERVISOR: exec_cmd: vm set_ios R10 /home/miguel/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Jun 22 11:27:20.559 HYPERVISOR: exec_cmd: c7200 set_mac_addr R10 ca01.1ff9.0000 
+Jun 22 11:27:20.559 HYPERVISOR: exec_cmd: vm set_nvram R10 512 
+Jun 22 11:27:20.559 HYPERVISOR: exec_cmd: vm set_ram R10 512 
+Jun 22 11:27:20.559 HYPERVISOR: exec_cmd: vm get_status R10 
+Jun 22 11:27:20.559 HYPERVISOR: exec_cmd: vm slot_remove_binding R10 0 0 
+Jun 22 11:27:20.560 HYPERVISOR: exec_cmd: vm get_status R10 
+Jun 22 11:27:20.560 HYPERVISOR: exec_cmd: vm slot_add_binding R10 0 0 C7200-IO-2FE 
+Jun 22 11:27:20.560 HYPERVISOR: exec_cmd: vm get_status R10 
+Jun 22 11:27:20.560 HYPERVISOR: exec_cmd: vm slot_add_binding R10 1 0 PA-2FE-TX 
+Jun 22 11:27:20.560 HYPERVISOR: exec_cmd: vm get_status R10 
+Jun 22 11:27:20.560 HYPERVISOR: exec_cmd: vm slot_add_binding R10 2 0 PA-2FE-TX 
+Jun 22 11:27:20.560 HYPERVISOR: exec_cmd: vm get_status R10 
+Jun 22 11:27:20.560 HYPERVISOR: exec_cmd: vm slot_add_binding R10 3 0 PA-2FE-TX 
+Jun 22 11:27:21.850 HYPERVISOR: exec_cmd: nio create_udp udp-94852517-c411-4ecb-9dee-0252ed228387 10010 127.0.0.1 10011 
+Jun 22 11:27:22.064 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R10 1 0 udp-94852517-c411-4ecb-9dee-0252ed228387 
+Jun 22 11:27:22.064 HYPERVISOR: exec_cmd: vm get_status R10 
+Jun 22 11:27:22.461 HYPERVISOR: exec_cmd: vm get_status R10 
+Jun 22 11:27:22.461 HYPERVISOR: exec_cmd: vm extract_config R10 
+Jun 22 11:27:22.461 HYPERVISOR: exec_cmd: vm delete R10 
+Jun 22 11:27:22.461 VM: VM R10 destroyed.
+Jun 22 11:27:22.462 HYPERVISOR: exec_cmd: hypervisor stop 
+Jun 22 11:27:22.558 HYPERVISOR: Stopped.
+Jun 22 11:27:22.558 GENERAL: reset done.

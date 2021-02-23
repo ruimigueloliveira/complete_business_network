@@ -1,0 +1,15 @@
+Jun 26 14:03:01.089 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Jun 26 14:03:01.089 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 58761.
+Jun 26 14:03:01.099 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 26 14:03:01.100 HYPERVISOR: exec_cmd: hypervisor working_dir /home/miguel/Desktop/ar/projeto/gns3/project-files/dynamips 
+Jun 26 14:03:01.100 GENERAL: working_dir=/home/miguel/Desktop/ar/projeto/gns3/project-files/dynamips
+Jun 26 14:03:01.100 HYPERVISOR: exec_cmd: ethsw create SWL2_BOSTON 
+Jun 26 14:03:06.718 HYPERVISOR: exec_cmd: nio create_udp udp-fcd35242-0bb6-4708-849a-30157abbeba7 10121 127.0.0.1 10120 
+Jun 26 14:03:06.718 HYPERVISOR: exec_cmd: ethsw add_nio SWL2_BOSTON udp-fcd35242-0bb6-4708-849a-30157abbeba7 
+Jun 26 14:03:06.726 HYPERVISOR: exec_cmd: ethsw set_access_port SWL2_BOSTON udp-fcd35242-0bb6-4708-849a-30157abbeba7 1 
+Jun 26 14:03:06.820 HYPERVISOR: exec_cmd: nio create_udp udp-d001ec41-6b09-48cb-a242-168accd2e73d 10124 127.0.0.1 10125 
+Jun 26 14:03:06.820 HYPERVISOR: exec_cmd: ethsw add_nio SWL2_BOSTON udp-d001ec41-6b09-48cb-a242-168accd2e73d 
+Jun 26 14:03:06.826 HYPERVISOR: exec_cmd: ethsw set_access_port SWL2_BOSTON udp-d001ec41-6b09-48cb-a242-168accd2e73d 1 
+Jun 26 14:03:08.365 HYPERVISOR: exec_cmd: nio create_udp udp-09fc9295-fbaa-4a3f-a0bf-7c98dff13955 10149 127.0.0.1 10148 
+Jun 26 14:03:08.365 HYPERVISOR: exec_cmd: ethsw add_nio SWL2_BOSTON udp-09fc9295-fbaa-4a3f-a0bf-7c98dff13955 
+Jun 26 14:03:08.384 HYPERVISOR: exec_cmd: ethsw set_access_port SWL2_BOSTON udp-09fc9295-fbaa-4a3f-a0bf-7c98dff13955 1 
